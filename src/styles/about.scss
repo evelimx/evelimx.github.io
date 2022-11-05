@@ -1,0 +1,43 @@
+@import 'general';
+
+.about-container {
+  display: flex;
+  color: $textColor;
+
+  img {
+    margin: 40px 30px 30px 100px;
+    display: inline-block;
+    height: 250px;
+  }
+
+  .self-description-container {
+    width: 600px;
+    font-family: $textFont;
+    margin: 43px 30px 10px 10px;
+    //line-height: 27px;
+    font-size: 17px;
+    display: inline-block;
+
+    .paragraph {
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+
+    .semibold {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .my-name {
+      font-family: $titleFont;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    a {
+      @include link();
+      color: #c0913b;
+      border-bottom: 1px dotted #ffa700;
+    }
+  }
+}

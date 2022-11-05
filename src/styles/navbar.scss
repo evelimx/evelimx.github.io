@@ -80,21 +80,19 @@ nav {
       }
     }
 
-    .googlescholar {
+    .email {
       svg {
+        margin: -22px 8px 0px 0px;
         width: 28px;
-        rect {
-          fill: none !important;
-        }
-
         path {
-          fill: white;
+          fill: white !important;
         }
       }
     }
 
     .github {
-      width: 20px;
+      margin: 5.5px 9px 0px 0px;
+      width: 22px;
       svg g path {
         fill: white !important;
       }

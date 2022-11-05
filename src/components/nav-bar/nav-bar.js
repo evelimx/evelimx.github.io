@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { ReactComponent as LinkedInIcon } from './icons/linkedin.svg';
 import { ReactComponent as GithubIcon } from './icons/github.svg';
+import { ReactComponent as EmailIcon } from './icons/email.svg';
 
 const Navbar = ( {page="index"} ) => {
     return (
@@ -23,6 +24,11 @@ const Navbar = ( {page="index"} ) => {
                 <div className="linkedin">
                     <a href="https://www.linkedin.com/in/eve-mingxiao-li-769032142/" target="_blank">
                         <LinkedInIcon />
+                    </a>
+                </div>
+                <div className="email">
+                    <a href="mailto: eveli@cs.toronto.edu" target="_blank">
+                        <EmailIcon />
                     </a>
                 </div>
             </div>
