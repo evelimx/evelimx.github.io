@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/nav-bar/nav-bar";
 import About from "../components/about/about"
+import Research from "../components/research/research";
 
 const MainPage = () => {
     return (
@@ -8,6 +9,9 @@ const MainPage = () => {
             <Navbar page="index"/>
             <div className="body-part">
                 <About />
+                <div id="research">
+                    <Research />
+                </div>
             </div>
         </div>
     );
