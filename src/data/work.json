@@ -33,5 +33,52 @@
         ],
         "link": "https://cs.uwaterloo.ca/~thachisu/",
         "prof": "Prof. Toshiya Hachisuka"  
+    },
+    {
+        "id": 4,
+        "title": "Software Engineer Intern – AI/ML, Core Siri Infrastructure",
+        "company": "Apple Inc.",
+        "location": "Cambridge, United Kingdom",
+        "time": "Sep. 2019 – Dec. 2019",
+        "details": [
+            "Strengthened fault identification in Siri verification by implementing features and functionalities in Java using instance-based learning techniques",
+            "Persisted results of instance-based learning by communication between clients and servers using Spring Boot framework, wrote a database manager using PostgreSQL, Hibernate ORM framework and jOOQ"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Research Assistant - Visual Computing & Artificial Intelligence Lab",
+        "company": "Korea Advanced Institute of Science and Technology (KAIST)",
+        "location": "Daejeon, South Korea",
+        "time": "Jan. 2019 – Apr. 2019",
+        "details": [
+            "Researched on drone videos and their applications under the supervision of ",
+            "Developed deep learning techniques by training 2D/3D Convolutional Neural Networks (CNNs) on the classification of drone video categories using Keras and Python and achieved an accuracy rate of 80%",
+            "Performed baseline evaluations of video cut detection, implemented heuristic algorithm in Python and analyzed camera motion path and 3D reconstruction using PhotoScan and Slam software"
+        ],
+        "link": "https://scholar.google.com/citations?user=XPZLx-8AAAAJ&hl=en",
+        "prof": "Prof. Jean-Charles Bazin"
+    },
+    {
+        "id": 2,
+        "title": "Software Developer Intern",
+        "company": "Ontario Institute for Cancer Research (OICR)",
+        "location": "Toronto, Canada",
+        "time": "May. 2018 – Aug. 2018",
+        "details": [
+            "Wrote a new module in Python and JavaScript for an open-source bioinformatics software MultiQC, and added new features and enhancements to modules which facilitated data analysis and research",
+            "Advanced a data processing workflow using Java, which upgraded the existing applications and improved the overall efficiency of data analysis and file parsing procedures"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Quality Assurance Developer",
+        "company": "AudienceView Ticketing Corporation",
+        "location": "Toronto, Ontario",
+        "time": "Sep. 2017 –  Dec. 2017",
+        "details": [
+            "Implemented automation suite in Node.js using WebDriver.io and Mocha framework",
+            "Contributed to the workflow maintenance of web applications and managed the master automation suite branch and code maintenance"
+        ]
     }
 ]
