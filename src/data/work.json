@@ -1,11 +1,37 @@
 [
     {
-        "id": 1,
+        "id": 7,
         "title": "Visiting Research Student",
         "company": "The University of Tokyo",
         "location": "IGARASHI Laboratory, Tokyo, Japan",
-        "time": "Sep 2022 - Mar 2023",
-        "description": "",
-        "thumbnail": "drone.png"
+        "time": "Sep. 2022 - Mar. 2023",
+        "details": [
+            "Supervised by "
+        ],
+        "link": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/",
+        "prof": "Prof. Takeo Igarashi"
+    },
+    {
+        "id": 6,
+        "title": "Backend Developer Intern",
+        "company": "IBM Canada Limited",
+        "location": "Ottawa, Canada",
+        "time": "Jan. 2021 – Apr. 2021",
+        "details": [
+            "Increased the data streaming speed by establishing multiple event ports and reducing lock contention, and improved the performance of a customized Kafka connector",
+            "Consolidated new features of Red Hat OpenShift Operators written in Golang by enabling new namespace creation, deploying operators, installing Custom Resources Definition (CRD) on clusters and investigating validating webhook configuration"        ]
+    },
+    {
+        "id": 5,
+        "title": "Undergraduate Research Assistant",
+        "company": "University of Waterloo",
+        "location": "Waterloo, Canada",
+        "time": "Sep. 2020 – Dec. 2020",
+        "details": [
+            "Implemented physics-based animation projects in OpenGL, C++ and Processing which was supervised by ",
+            "Built research knowledge in deformable object simulation with the approach of particle systems, mean curvature normal, volume preservation, triangle meshes and numerical methods"        
+        ],
+        "link": "https://cs.uwaterloo.ca/~thachisu/",
+        "prof": "Prof. Toshiya Hachisuka"  
     }
 ]

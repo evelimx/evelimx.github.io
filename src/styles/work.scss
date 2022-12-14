@@ -11,15 +11,24 @@
 
   .work_preview {
     display: flex;
-    margin: 10px 20px 10px 40px;
+    margin: 10px 20px 10px -40px;
     font-family: $textFont;
     font-size: 17px;
 
     .descriptions {
       margin: 5px 10px 10px 30px;
-      align-self: right;
-      .title {
-        font-weight: 600;
+      .position {
+        width: 600px;
+        display : inline-block;
+      }
+      
+      .position .title {
+        font-weight: 630;
+      }
+
+      .time {
+        float: right;
+        clear: both;
       }
 
       .location {
@@ -29,8 +38,14 @@
         }
       }
 
-      .description {
+      .details {
         margin-top: 16px;
+      }
+
+      a {
+        @include link();
+        color: #c0913b;
+        border-bottom: 1px dotted #ffa700;
       }
     }
   }

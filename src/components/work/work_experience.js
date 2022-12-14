@@ -2,18 +2,34 @@ import React from "react";
 
 const Work = ({work}) => (
     <div className="work_preview">
-        <li>
         <div className="descriptions">
             <div>
                 <div className="position">
-                    <span className="title">{work.title}</span> at {work.company} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {work.time}
+                    <span className="title">{work.title}</span>
+                    <span className="company"> @ {work.company}</span> 
+                </div>
+                <div className="time">
+                    <span>{work.time}</span>
                 </div>
                 <div className="location">
                     <div>{work.location}</div>
                 </div>
+                <div className="details">
+                    <ul>
+                        {work.details.map((job, i)=> (
+                            <li key={i}>
+                                {job}
+                                { i==0 && work.prof ?
+                                    <a href={work.link} target="_blank">
+                                    {work.prof}
+                                    </a> :""
+                                }
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </div>
-        </li>
     </div>
 );
 
