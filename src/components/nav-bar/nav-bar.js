@@ -22,7 +22,7 @@ const Navbar = ( {page="index"} ) => {
                     </a>
                 </div>
                 <div className="linkedin">
-                    <a href="https://www.linkedin.com/in/eve-mingxiao-li-769032142/" target="_blank">
+                    <a href="https://www.linkedin.com/in/mingxiao-eve-li-769032142/" target="_blank">
                         <LinkedInIcon />
                     </a>
                 </div>
