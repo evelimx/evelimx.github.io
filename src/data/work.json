@@ -6,10 +6,12 @@
         "location": "IGARASHI Laboratory, Tokyo, Japan",
         "time": "Sep. 2022 - Mar. 2023",
         "details": [
-            "Working on MR visualization research supervised by "
+            "Working on AR garment design research supervised by "
         ],
         "link": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/",
-        "prof": "Prof. Takeo Igarashi"
+        "prof": "Prof. Takeo Igarashi",
+        "link2": "https://drsandor.net/",
+        "prof2": "Prof. Christian Sandor"
     },
     {
         "id": 6,

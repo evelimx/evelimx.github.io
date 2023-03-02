@@ -24,6 +24,14 @@ const Work = ({work}) => (
                                     {work.prof}
                                     </a> :""
                                 }
+                                { work.prof2?
+                                    <text> and </text>:""
+                                }
+                                { work.prof2 ?
+                                    <a href={work.link2} target="_blank">
+                                    {work.prof2}
+                                    </a> :""
+                                }
                             </li>
                         ))}
                     </ul>
