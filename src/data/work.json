@@ -6,7 +6,8 @@
         "location": "IGARASHI Laboratory, Tokyo, Japan",
         "time": "Sep. 2022 - Mar. 2023",
         "details": [
-            "Working on AR garment design research supervised by "
+            "Worked on an AR garment design research project supervised by ",
+            "Designed an interactive prototype in Unity3D and C# using Canon AR HMD and Kinect Body Tracking that formed the basis for a publication"
         ],
         "link": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/",
         "prof": "Prof. Takeo Igarashi",
@@ -74,7 +75,7 @@
     },
     {
         "id": 1,
-        "title": "Quality Assurance Developer",
+        "title": "Quality Assurance Developer Intern",
         "company": "AudienceView Ticketing Corporation",
         "location": "Toronto, Ontario",
         "time": "Sep. 2017 –  Dec. 2017",
