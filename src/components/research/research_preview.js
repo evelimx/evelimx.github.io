@@ -17,10 +17,13 @@ const Research = ({research}) => (
                     in <div>{research.conference}</div>
                 </div>
             </div>
-            <div className="links">
+            { research.doi ?
+                <div className="links">
                 {!!research.doi && <a href={research.doi} target="_blank">DOI</a>}
                 {!!research.pdf && <a href={research.pdf} target="_blank">PDF</a>}
-            </div>
+                </div> : <div className="details">{research.details}</div>
+
+            }
         </div>
     </div>
 );

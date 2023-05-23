@@ -1,5 +1,13 @@
 [
     {
+        "id": 2,
+        "title": "EnchantedBrush: Animating in Mixed Reality for Storytelling and Communication",
+        "authors": "<b><u>Eve Mingxiao Li</u></b>, Anran Qi, Mauricio Sousa, Tovi Grossman",
+        "conference": "Graphics Interface 2023",
+        "thumbnail": "enchantedbrush.png",
+        "details": "Details coming soon!"
+    },
+    {
         "id": 1,
         "title": "A Drone Video Clip Dataset and its Applications in Automated Cinematography",
         "authors": "Amirsaman Ashtari, Raehyuk Jung, <b><u>Mingxiao Li</u></b>, Junyong Noh",
