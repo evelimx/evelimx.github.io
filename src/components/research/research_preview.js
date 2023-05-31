@@ -17,7 +17,7 @@ const Research = ({research}) => (
                     in <div>{research.conference}</div>
                 </div>
             </div>
-            { research.doi ?
+            { research.pdf ?
                 <div className="links">
                 {!!research.doi && <a href={research.doi} target="_blank">DOI</a>}
                 {!!research.pdf && <a href={research.pdf} target="_blank">PDF</a>}
