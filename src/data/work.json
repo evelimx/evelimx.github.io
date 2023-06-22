@@ -22,7 +22,8 @@
         "location": "Ottawa, Canada",
         "time": "Jan. 2021 – Apr. 2021",
         "details": [
-            "Increased the data streaming speed by establishing multiple event ports and reducing lock contention, and improved the performance of a customized Kafka connector",
+            "Increased data streaming speeds by 30% by establishing multiple event ports and reducing lock contention",
+            "Improved the performance of a customized Kafka connector by implementing Java concurrency",
             "Consolidated new features of Red Hat OpenShift Operators written in Golang by enabling new namespace creation, deploying operators, installing Custom Resources Definition (CRD) on clusters and investigating validating webhook configuration"        ]
     },
     {
@@ -45,8 +46,9 @@
         "location": "Cambridge, United Kingdom",
         "time": "Sep. 2019 – Dec. 2019",
         "details": [
-            "Strengthened fault identification in Siri verification by implementing features and functionalities in Java using instance-based learning techniques",
-            "Persisted results of instance-based learning by communication between clients and servers using Spring Boot framework, wrote a database manager using PostgreSQL, Hibernate ORM framework and jOOQ"
+            "Strengthened fault identification in Siri verification by implementing features and functionalities in Java using instance-based learning techniques for a Siri verification service with a command-line interface",
+            "Persisted results of instance-based learning by communication between clients and servers using Spring Boot framework, wrote a database manager using PostgreSQL, Hibernate ORM framework and jOOQ",
+            "Enhanced the service performance efficiency of data processing by applying multithreading techniques"
         ]
     },
     {
@@ -71,7 +73,8 @@
         "time": "May. 2018 – Aug. 2018",
         "details": [
             "Wrote a new module in Python and JavaScript for an open-source bioinformatics software MultiQC, and added new features and enhancements to modules which facilitated data analysis and research",
-            "Advanced a data processing workflow using Java, which upgraded the existing applications and improved the overall efficiency of data analysis and file parsing procedures"
+            "Advanced a data processing workflow using Java, which upgraded the existing applications and improved the overall efficiency of data analysis and file parsing procedures",
+            "Provided users with easy access to the latest MultiQC reports by creating a report listing webpage using HTML, CSS, and JQuery"
         ]
     },
     {
