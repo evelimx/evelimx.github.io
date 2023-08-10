@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as LinkedInIcon } from './icons/linkedin.svg';
 import { ReactComponent as GithubIcon } from './icons/github.svg';
 import { ReactComponent as EmailIcon } from './icons/email.svg';
+import { ReactComponent as ScholarIcon } from './icons/scholar.svg';
 
 const Navbar = ( {page="index"} ) => {
     return (
@@ -16,6 +17,11 @@ const Navbar = ( {page="index"} ) => {
                 </div>
             </div>
             <div className="info">
+                <div className="scholar">
+                    <a href="https://scholar.google.com/citations?user=zPCUOQsAAAAJ&hl=en&oi=ao" target="_blank">
+                        <ScholarIcon/>
+                    </a>
+                </div>
                 <div className="github">
                     <a href="https://github.com/evelimx" target="_blank">
                         <GithubIcon/>

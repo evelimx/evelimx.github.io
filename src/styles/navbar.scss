@@ -80,6 +80,17 @@ nav {
       }
     }
 
+    .scholar {
+      svg {
+        margin: -22px 100px -6.5px -12.5px;
+        width: 150%;
+        height: 200%;
+        path {
+          fill: white !important;
+        }
+      }
+    }
+
     .email {
       svg {
         margin: -22px 8px 0px 0px;
