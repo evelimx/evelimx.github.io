@@ -23,7 +23,6 @@ const Research = ({research}) => (
                 {!!research.doi && <a href={research.doi} target="_blank">DOI</a>}
                 {!!research.video && <a href={research.video} target="_blank">VIDEO</a>}
                 </div> : <div className="details">{research.details}</div>
-
             }
         </div>
     </div>

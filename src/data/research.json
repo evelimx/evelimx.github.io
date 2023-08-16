@@ -1,5 +1,13 @@
 [
     {
+        "id": 3,
+        "title": "PerfectFit: Custom-Fit Garment Design in Augmented Reality",
+        "authors": "Akihiro Kiuchi, Anran Qi, <b><u>Eve Mingxiao Li</u></b>, Dávid Maruscsák, Christian Sandor, Takeo Igarashi",
+        "conference": "SIGGRAPH Asia 2023 XR",
+        "thumbnail": "garment.png",
+        "details": "Details coming soon."
+    },
+    {
         "id": 2,
         "title": "EnchantedBrush: Animating in Mixed Reality for Storytelling and Communication",
         "authors": "<b><u>Eve Mingxiao Li</u></b>, Anran Qi, Mauricio Sousa, Tovi Grossman",
