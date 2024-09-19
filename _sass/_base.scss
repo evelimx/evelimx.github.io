@@ -499,6 +499,17 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
+.experience-date {
+  background-color: rgb(255, 247, 255) !important;
+  color: black !important;
+  font-weight: 370;
+}
+
+.experience-position {
+  color: #b509ac !important;
+  font-weight: 700 !important;
+}
+
 // Repositories
 
 @media (min-width: 768px) {

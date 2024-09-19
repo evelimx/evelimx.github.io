@@ -68,6 +68,98 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Relevant Experience
+# -----------------------------------------------------------------------------
+work: [
+    {
+      "name": "Veeva Systems",
+      "position": "Associate Software Engineer",
+      "startDate": "2023-10",
+      "endDate": "Present",
+      "location": "Toronto, Canada",
+      "summary": ["Developed a case management platform in React, JavaScript, CSS, and Java for both UI and backend functionality, collaborating closely with Product Manager to align features with business goals", "Led epics for new features, coordinating developers, architects, and design teams and delivered features on time"],
+    },
+    {
+      "name": "The University of Tokyo",
+      "position": "Visiting Researcher",
+      "startDate": "2022-09",
+      "endDate": "2023-03",
+      "location": "Tokyo, Japan",
+      "summary": [
+            "Designed an interactive prototype for garment design in Unity3D and C# using Canon AR HMD and Kinect Body Tracking that formed the basis for a publication, supervised by ",
+            "Implemented an airflow visualization tool in Unity3D and C# with Canon AR HMD and fluid simulation software EmberGen"
+        ],
+      "supervisor1": "Prof. Takeo Igarashi",
+      "supervisor2": "Prof. Christian Sandor",
+      "link1": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/",
+      "link2": "https://drsandor.net/",
+    },
+    {
+      "name": "IBM Canada",
+      "position": "Backend Developer Intern",
+      "startDate": "2021-01",
+      "endDate": "2021-04",
+      "location": "Ottawa, Canada",
+      "summary": [
+        "Increased data streaming speeds by 30% by establishing multiple event ports and reducing lock contention",
+            "Improved the performance of a customized Kafka connector by implementing Java concurrency",
+            "Consolidated new features of Red Hat OpenShift Operators written in Golang by enabling new namespace creation, deploying operators, installing Custom Resources Definition (CRD) on clusters and investigating validating webhook configuration"
+            ],
+    },
+    {
+      "name": "University of Waterloo",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2020-09",
+      "endDate": "2020-12",
+      "location": "Waterloo, Canada",
+      "summary": [
+            "Implemented physics-based animation projects in OpenGL, C++ and Processing which was supervised by ",
+            "Built research knowledge in deformable object simulation with the approach of particle systems, mean curvature normal, volume preservation, triangle meshes and numerical methods"        
+        ],
+        "supervisor1": "Prof. Toshiya Hachisuka",
+        "link1": "https://cs.uwaterloo.ca/~thachisu/",
+    },
+    {
+      "name": "Apple Inc.",
+      "position": "Software Engineer Intern – AI/ML, Core Siri Infrastructure",
+      "startDate": "2019-09",
+      "endDate": "2019-12",
+      "location": "Cambridge, UK",
+      "summary": [
+            "Strengthened fault identification in Siri verification by implementing features and functionalities in Java using instance-based learning techniques for a Siri verification service with a command-line interface",
+            "Persisted results of instance-based learning by communication between clients and servers using Spring Boot framework, wrote a database manager using PostgreSQL, Hibernate ORM framework and jOOQ",
+            "Enhanced the service performance efficiency of data processing by applying multithreading techniques"
+        ],
+    },
+    {
+      "name": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "position": "Research Assistant - Visual Computing & Artificial Intelligence Lab",
+      "startDate": "2019-01",
+      "endDate": "2019-04",
+      "location": "Daejeon, South Korea",
+      "summary": [
+            "Researched on drone videos and their applications under the supervision of ",
+            "Developed deep learning techniques by training 2D/3D Convolutional Neural Networks (CNNs) on the classification of drone video categories using Keras and Python and achieved an accuracy rate of 80%",
+            "Performed baseline evaluations of video cut detection, implemented heuristic algorithm in Python and analyzed camera motion path and 3D reconstruction using PhotoScan and Slam software"
+        ],
+        "supervisor1": "Prof. Jean-Charles Bazin",
+        "link1": "https://scholar.google.com/citations?user=XPZLx-8AAAAJ&hl=en",
+    },
+    {
+      "name": "Ontario Institute for Cancer Research (OICR)",
+      "position": "Software Developer Intern",
+      "startDate": "2018-05",
+      "endDate": "2018-08",
+      "location": "Toronto, Canada",
+      "summary": [
+            "Wrote a new module in Python and JavaScript for an open-source bioinformatics software MultiQC, and added new features and enhancements to modules which facilitated data analysis and research",
+            "Advanced a data processing workflow using Java, which upgraded the existing applications and improved the overall efficiency of data analysis and file parsing procedures",
+            "Provided users with easy access to the latest MultiQC reports by creating a report listing webpage using HTML, CSS, and JQuery"
+        ]
+    },
+  ]
+
+# -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 

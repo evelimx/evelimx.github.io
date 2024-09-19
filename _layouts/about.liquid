@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Relevant Experience -->
+    {% if page.experience %}
+      <h2>
+        Relevant Experience
+      </h2>
+      {% include work.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
