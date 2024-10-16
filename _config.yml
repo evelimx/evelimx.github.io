@@ -71,14 +71,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Relevant Experience
 # -----------------------------------------------------------------------------
 work: [
-    {
-      "name": "Veeva Systems",
-      "position": "Software Engineer",
-      "startDate": "2023-10",
-      "endDate": "Present",
-      "location": "Toronto, Canada",
-      "summary": ["Developed a case management platform in React, JavaScript, CSS, and Java for both UI and backend functionality, collaborating closely with Product Manager to align features with business goals", "Led the technical design and development of new features, coordinating efforts across developers, architects, and UX teams"],
-    },
+    # {
+    #   "name": "Veeva Systems",
+    #   "position": "Software Engineer",
+    #   "startDate": "2023-10",
+    #   "endDate": "Present",
+    #   "location": "Toronto, Canada",
+    #   "summary": ["Developed a case management platform in React, JavaScript, CSS, and Java for both UI and backend functionality, collaborating closely with Product Manager to align features with business goals", "Led the technical design and development of new features, coordinating efforts across developers, architects, and UX teams"],
+    # },
     {
       "name": "The University of Tokyo",
       "position": "Visiting Researcher",
