@@ -139,7 +139,7 @@ work: [
       "location": "Daejeon, South Korea",
       "summary": [
             "Researched on drone videos and their applications under the supervision of ",
-            "Developed deep learning techniques by training 2D/3D Convolutional Neural Networks (CNNs) on the classification of drone video categories using Keras and Python and achieved an accuracy rate of 80%",
+            "Developed deep learning techniques by training 2D/(2+1)D Convolutional Neural Networks (CNNs) on the classification of drone video categories using Keras and Python and achieved an accuracy rate of 80%",
             "Performed baseline evaluations of video cut detection, implemented heuristic algorithm in Python and analyzed camera motion path and 3D reconstruction using PhotoScan and Slam software"
         ],
         "supervisor1": "Prof. Jean-Charles Bazin",
