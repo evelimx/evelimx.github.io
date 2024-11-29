@@ -77,7 +77,9 @@ work: [
     #   "startDate": "2023-10",
     #   "endDate": "Present",
     #   "location": "Toronto, Canada",
-    #   "summary": ["Developed a case management platform in React, JavaScript, CSS, and Java for both UI and backend functionality, collaborating closely with Product Manager to align features with business goals", "Led the technical design and development of new features, coordinating efforts across developers, architects, and UX teams"],
+    #   "summary": [
+    #         "Developed a case management platform in React, JavaScript, CSS, and Java for both UI and backend functionalities, collaborating closely with Product Manager to align features with business goals", 
+    #         "Led the technical design and development of new features, coordinating efforts across developers, architects, and UX teams"],
     # },
     {
       "name": "The University of Tokyo",
@@ -155,6 +157,17 @@ work: [
             "Wrote a new module in Python and JavaScript for an open-source bioinformatics software MultiQC, and added new features and enhancements to modules which facilitated data analysis and research",
             "Advanced a data processing workflow using Java, which upgraded the existing applications and improved the overall efficiency of data analysis and file parsing procedures",
             "Provided users with easy access to the latest MultiQC reports by creating a report listing webpage using HTML, CSS, and JQuery"
+        ]
+    },
+    {
+      "name": "AudienceView",
+      "position": "QA Developer Intern",
+      "startDate": "2017-09",
+      "endDate": "2017-12",
+      "location": "Toronto, Canada",
+      "summary": [
+            "Developed automated testing skills by writing testing suites in Node.js, leveraging WebDriver IO as an interface to test and ensure the quality of web applications",
+            "Enhanced collaborative skills and leadership by working closely with team members to align testing strategies and managing a master testing branch in GitHub",
         ]
     },
   ]
