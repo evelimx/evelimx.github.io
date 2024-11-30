@@ -106,7 +106,7 @@ work: [
       "endDate": "2023-08",
       "location": "Toronto, Canada",
       "summary": [
-            "Led a Mixed-Reality sketching project supervised ",
+            "Led a Mixed-Reality sketching project supervised by ",
             "Designed and implemented an interactive sketch-based system for communication and storytelling using Unity3D, C#, Oculus Quest 2, Zed Mini, and sketch recognition neural network in Python",
             "Developed a mixed-initiative interaction paradigm for visual and audio design, and conducted an exploratory user study with both general users and professional artists"
         ],
